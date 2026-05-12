@@ -1,20 +1,28 @@
-# myapp
+# Upgraded Guacamole Chess
 
-A new Flutter project.
+This is a Flutter-based chess application.
 
 ## Getting Started
 
 This project is a starting point for a Flutter application.
 
-A few resources to get you started if this is your first Flutter project:
+To get a local copy up and running, follow these simple steps.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+### Prerequisites
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+* Flutter SDK: [https://flutter.dev/docs/get-started/install](https://flutter.dev/docs/get-started/install)
 
-git remote add origin https://github.com/aborigen/upgraded-guacamole-chess.git
-git branch -M main
-git push -u origin main
+### Installation
+
+1. Clone the repo
+   ```sh
+   git clone https://github.com/aborigen/upgraded-guacamole-chess.git
+   ```
+2. Install packages
+   ```sh
+   flutter pub get
+   ```
+3. Run the app
+   ```sh
+   flutter run
+   ```
